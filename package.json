@@ -1,0 +1,28 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "syncdb": "npx drizzle-kit generate && npx drizzle-kit push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.34.1",
+    "express": "^4.21.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "pg": "^8.13.0",
+    "pg-promise": "^11.10.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.25.0"
+  }
+}

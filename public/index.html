@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Inventory System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Book Inventory</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="add-book.html">Add Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view-books.html">View Books</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h1 class="text-center">Welcome to the Book Inventory System</h1>
+    <div class="alert alert-success d-none" id="success-alert"></div>
+    <div class="alert alert-danger d-none" id="error-alert"></div>
+
+    <p class="lead">
+        Manage your book collection with ease using our intuitive Book Inventory System. This web-based application allows you to efficiently add, filter, and export book data, making it an essential tool for both personal and professional use.
+    </p>
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Add New Books:</strong> Easily add new books to your inventory with a simple form, ensuring that all details, including title, author, genre, publication date, and ISBN, are captured accurately.</li>
+        <li><strong>Filter Existing Books:</strong> Quickly find specific titles or authors using our powerful filtering options, allowing you to narrow down your collection based on various criteria.</li>
+        <li><strong>Export Data:</strong> Need to share your book inventory? Our system supports exporting data in popular formats like CSV and JSON, making it easy to download and share your book information.</li>
+        <li><strong>Add Random Data To test:</strong> Need to test export and view? Head down and add as many random records as you like (range of 1-1000)</li>
+    </ul>
+    <h2>User-Friendly Interface</h2>
+    <p>
+        Our Book Inventory System is designed with user experience in mind. The interface is clean, responsive, and intuitive, ensuring that you can navigate through the system effortlessly. Whether you’re adding a new book or searching for an old favorite, our system is here to help.
+    </p>
+    <h2>Get Started</h2>
+    <p class>
+        Click on the navigation links above to start managing your book collection today. Whether you're an avid reader, a librarian, or just someone who loves books, this system will streamline your inventory process!
+    </p>
+
+    <h2>Add Random Books</h2>
+    <p>
+        Do not have any data to test? No issues!
+    </p>
+
+    <p>
+        Use the form below to add a specific number of random books to your inventory. Just enter the number and click the button!
+    </p>
+
+    <form id="randomBookForm">
+        <div class="mb-3">
+            <label for="bookCount" class="form-label">Number of Random Books:</label>
+            <input type="number" id="bookCount" class="form-control" style="width:150px" min="1" max="1000" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Random Books</button>
+    </form>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
