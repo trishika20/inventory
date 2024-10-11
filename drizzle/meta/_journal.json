@@ -5,22 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1728649921267,
-      "tag": "0000_white_the_renegades",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1728650308584,
-      "tag": "0001_early_starhawk",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1728657162088,
-      "tag": "0002_damp_miracleman",
+      "when": 1728664939891,
+      "tag": "0000_perfect_mercury",
       "breakpoints": true
     }
   ]
